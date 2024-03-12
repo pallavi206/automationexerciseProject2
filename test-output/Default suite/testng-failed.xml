@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testcases.Test_case_9">
+        <methods>
+          <include name="verifySearchProductText"/>
+          <include name="initialiazeBrowser"/>
+          <include name="verifyProductsTitle"/>
+          <include name="verifyTitle"/>
+          <include name="verifySearchButton"/>
+        </methods>
+      </class> <!-- testcases.Test_case_9 -->
+      <class name="testcases.Test_Case_16">
+        <methods>
+          <include name="initialiazeBrowser"/>
+          <include name="enterInfo"/>
+          <include name="verifyAddressDetails"/>
+          <include name="verifySuccessMessage"/>
+          <include name="Signup"/>
+          <include name="VerifyAddtoCart"/>
+          <include name="ProceedCheckout"/>
+          <include name="VerifyLogginTect"/>
+          <include name="cart"/>
+          <include name="deleteAccount"/>
+          <include name="verifyUrl"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_16 -->
+      <class name="testcases.Test_Case_3">
+        <methods>
+          <include name="initialiazeBrowser"/>
+          <include name="verifyLoggedInText"/>
+          <include name="verifyInavlidtextMessage"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_3 -->
+      <class name="testcases.Test_Case_26">
+        <methods>
+          <include name="initialiazeBrowser"/>
+          <include name="verifyScrollup"/>
+          <include name="verifySCrollText"/>
+          <include name="verifySub"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_26 -->
+      <class name="testcases.Test_Case_5">
+        <methods>
+          <include name="initialiazeBrowser"/>
+          <include name="verifyErrormsg"/>
+          <include name="verifyNewUserTitle"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_5 -->
+      <class name="testcases.Test_Case_7">
+        <methods>
+          <include name="verifyTitle"/>
+          <include name="initialiazeBrowser"/>
+          <include name="verifyTestTitle"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_7 -->
+      <class name="testcases.Test_Case_11">
+        <methods>
+          <include name="initialiazeBrowser"/>
+          <include name="VerifySubscriptiontext"/>
+          <include name="VerifySuccessMsg"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_11 -->
+      <class name="testcases.Test_Case_23">
+        <methods>
+          <include name="verifyAddressDetails"/>
+          <include name="initialiazeBrowser"/>
+          <include name="VerifyAddtoCart"/>
+          <include name="cart"/>
+          <include name="enterInfo"/>
+          <include name="Signup"/>
+          <include name="verifyTitle"/>
+          <include name="ProceedCheckout"/>
+          <include name="deleteAccount"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_23 -->
+      <class name="testcases.Test_Case_4">
+        <methods>
+          <include name="initialiazeBrowser"/>
+          <include name="verifyLogin"/>
+          <include name="verifyNavigateto_logout"/>
+          <include name="verifyLoggedInText"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_4 -->
+      <class name="testcases.Test_Case_22">
+        <methods>
+          <include name="initialiazeBrowser"/>
+          <include name="verifyCategoryText"/>
+          <include name="verifyCartItem"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_22 -->
+      <class name="testcases.Test_Case_20">
+        <methods>
+          <include name="initialiazeBrowser"/>
+          <include name="verifyCart"/>
+          <include name="clickCartAgain"/>
+          <include name="clickProducts"/>
+          <include name="signUP"/>
+          <include name="clickCart"/>
+          <include name="verifyCategoryText"/>
+          <include name="verifyCartAgain"/>
+          <include name="addSearchedPro"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_20 -->
+      <class name="testcases.Test_Case_21">
+        <methods>
+          <include name="initialiazeBrowser"/>
+          <include name="verifyReviewText"/>
+          <include name="verifyCategoryText"/>
+          <include name="verifyReviewMessage"/>
+          <include name="viewProduct"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_21 -->
+      <class name="testcases.Test_Case_2">
+        <methods>
+          <include name="verifyLoggedInText"/>
+          <include name="initialiazeBrowser"/>
+          <include name="verifyDeleteText"/>
+          <include name="verifyUrl"/>
+          <include name="login"/>
+          <include name="verifyTitle"/>
+          <include name="verifyLoggedinUsernameText"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_2 -->
+      <class name="testcases.Test_Case_14">
+        <methods>
+          <include name="VerifyAddtoCart"/>
+          <include name="enterInfo"/>
+          <include name="initialiazeBrowser"/>
+          <include name="verifySuccessMessage"/>
+          <include name="proccedtoCheckout"/>
+          <include name="deleteAccount"/>
+          <include name="verifyReg_login"/>
+          <include name="verifyAddress"/>
+          <include name="cart"/>
+          <include name="verifyUrl"/>
+          <include name="VerifyLogginTect"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_14 -->
+      <class name="testcases.Test_Case_17">
+        <methods>
+          <include name="initialiazeBrowser"/>
+          <include name="addProducts"/>
+          <include name="clickCartBtn"/>
+          <include name="VerifyRemoveCartItem"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_17 -->
+      <class name="testcases.Test_Case_6">
+        <methods>
+          <include name="initialiazeBrowser"/>
+          <include name="verifyMessage"/>
+          <include name="verifypgTitle"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_6 -->
+      <class name="testcases.Test_Case_13">
+        <methods>
+          <include name="ClickViewProduct"/>
+          <include name="verifyProductQuantity"/>
+          <include name="initialiazeBrowser"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_13 -->
+      <class name="testcases.Test_Case_12">
+        <methods>
+          <include name="initialiazeBrowser"/>
+          <include name="verifyProductAdded"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_12 -->
+      <class name="testcases.Test_Case_24">
+        <methods>
+          <include name="VerifyAddtoCart"/>
+          <include name="initialiazeBrowser"/>
+          <include name="verifyAddressDetails"/>
+          <include name="enterInfo"/>
+          <include name="verifySuccessMessage"/>
+          <include name="deleteAccount"/>
+          <include name="verifyTitle"/>
+          <include name="cart"/>
+          <include name="clickCart"/>
+          <include name="ProceedCheckout"/>
+          <include name="VerifyLogginTect"/>
+          <include name="verifyCheckOut"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_24 -->
+      <class name="testcases.Test_Case_10">
+        <methods>
+          <include name="VerifySubscriptiontext"/>
+          <include name="initialiazeBrowser"/>
+          <include name="verifyTitle"/>
+          <include name="VerifySuccessMsg"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_10 -->
+      <class name="testcases.Test_Case_15">
+        <methods>
+          <include name="VerifyLogginTect"/>
+          <include name="verifySuccessMessage"/>
+          <include name="initialiazeBrowser"/>
+          <include name="Signup"/>
+          <include name="verifyAddressDetails"/>
+          <include name="enterInfo"/>
+          <include name="cart"/>
+          <include name="deleteAccount"/>
+          <include name="verifyUrl"/>
+          <include name="ProceedCheckout"/>
+          <include name="VerifyAddtoCart"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_15 -->
+      <class name="testcases.TestCase_1">
+        <methods>
+          <include name="verifyNewUserTitle"/>
+          <include name="initialiazeBrowser"/>
+          <include name="verifyLoggedinAsUsername"/>
+          <include name="verifyAccountCreatedText"/>
+          <include name="deleteAcctText"/>
+          <include name="verifyTitle"/>
+          <include name="verifyUrl"/>
+          <include name="verifyenterAccountInfo"/>
+        </methods>
+      </class> <!-- testcases.TestCase_1 -->
+      <class name="testcases.Test_Case_25">
+        <methods>
+          <include name="verifyScroll"/>
+          <include name="initialiazeBrowser"/>
+          <include name="verifySub"/>
+          <include name="verifyUrl"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_25 -->
+      <class name="testcases.Test_Case_8">
+        <methods>
+          <include name="initialiazeBrowser"/>
+          <include name="verifyProductsTitle"/>
+          <include name="verifyTitle"/>
+          <include name="productsDetailsTitle"/>
+          <include name="verifyProductCatelog"/>
+          <include name="verifyProductPrice"/>
+          <include name="verifyProductAvl"/>
+          <include name="verifyProductBrand"/>
+          <include name="verifyProductCondition"/>
+          <include name="verifyProductName"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_8 -->
+      <class name="testcases.Test_Case_19">
+        <methods>
+          <include name="initialiazeBrowser"/>
+          <include name="clickPro"/>
+          <include name="verifyTitle"/>
+          <include name="VerifybrandTitle"/>
+          <include name="VerifyproTitle"/>
+          <include name="VerifypoloTitle"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_19 -->
+      <class name="testcases.Test_Case_18">
+        <methods>
+          <include name="verifyCategoryText"/>
+          <include name="initialiazeBrowser"/>
+          <include name="verifymenCatPageTitle"/>
+          <include name="verifyWomenCatPageTitle"/>
+        </methods>
+      </class> <!-- testcases.Test_Case_18 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
